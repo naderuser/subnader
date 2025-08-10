@@ -9,3 +9,23 @@ vless://65c4c2dd-a7e3-4b7a-9f31-f81cf286f4ac@179.43.190.20:2053?path=%2F%3Fed%3D
 vless://65c4c2dd-a7e3-4b7a-9f31-f81cf286f4ac@5.101.180.145:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3&encryption=none&host=naderplus2027.sami24sd0933.workers.dev&fp=random&type=ws&sni=naderplus2027.sami24sd0933.workers.dev#Europe-Tallinn
 vless://65c4c2dd-a7e3-4b7a-9f31-f81cf286f4ac@45.144.51.79:2053?path=%2F%3Fed%3D2560&security=tls&alpn=h3&encryption=none&host=naderplus2027.sami24sd0933.workers.dev&fp=random&type=ws&sni=naderplus2027.sami24sd0933.workers.dev#zurich4
 vless://65c4c2dd-a7e3-4b7a-9f31-f81cf286f4ac@213.183.61.100:8443?path=%2F%3Fed%3D2560&security=tls&alpn=h3&encryption=none&host=naderplus2027.sami24sd0933.workers.dev&fp=random&type=ws&sni=naderplus2027.sami24sd0933.workers.dev#edgetunnel%20amesterdam
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "🇷🇴 RO-5",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "uE9NRp7Ja2yn7pN0uswNMb3VuR4ciw5o6ysWH1i09HA=",
+      "peer_public_key": "jDAyArm/Gg+ONoEfAawsibdNRTTGZcfAvqan+bGD0G8=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "138.199.53.237",
+      "server_port": 51820
+    }
+  ]
+}
